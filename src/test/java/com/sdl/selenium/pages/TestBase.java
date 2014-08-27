@@ -57,6 +57,7 @@ public class TestBase {
 		driver = WebDriverFactory.getInstance(gridHubUrl, browser, username,
 				password);
 		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 	}
 
 	@AfterSuite(alwaysRun = true)

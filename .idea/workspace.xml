@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java" line="264" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java" line="275" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f84a066-4e4d-40bd-9e15-60445acf5f78" name="Default" comment="" />
@@ -58,7 +58,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java" line="28" class="com.sdl.selenium.pages.LC_test" package="com.sdl.selenium.pages">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -68,22 +84,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LC_test.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LC_test.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="21" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.7978437" vertical-offset="1183" max-vertical-offset="3655">
+            <state line="119" column="0" selection-start="4117" selection-end="4117" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="4216">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#before#0;class#LC_test#0" expanded="false" />
                 <element signature="method#thirdTest#0;class#LC_test#0" expanded="false" />
-                <element signature="method#goToHomeTab#0;class#LC_test#0" expanded="false" />
-                <element signature="method#pressFinishEditing#0;class#LC_test#0" expanded="false" />
                 <element signature="method#navigateToReach#0;class#LC_test#0" expanded="false" />
-                <element signature="method#pressEditMapButton#0;class#LC_test#0" expanded="false" />
                 <element signature="method#goToTOCTab#0;class#LC_test#0" expanded="false" />
                 <element signature="method#pressInsertExistingPage#0;class#LC_test#0" expanded="false" />
                 <element signature="method#selectAndInsertExistingPage#0;class#LC_test#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="44" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.70991254" vertical-offset="227" max-vertical-offset="1343">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,10 +132,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/Test1.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdl/selenium/webdriver/WebDriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/TestBase.java" />
       </list>
     </option>
   </component>
@@ -131,8 +153,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1448" />
-    <option name="height" value="856" />
+    <option name="width" value="1928" />
+    <option name="height" value="1156" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +182,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,7 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
+              <option name="myItemId" value="sel_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,7 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
+              <option name="myItemId" value="sel_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -196,10 +217,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,7 +224,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
+              <option name="myItemId" value="sel_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -233,107 +250,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
+              <option name="myItemId" value="sel_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grid2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +273,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SeleniumTest" />
+    <property name="last_opened_file_path" value="C:/SeleniumTest" />
     <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -684,17 +612,16 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TestNG.com.sdl.selenium.pages" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.LC_test" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/git/SeleniumTest2/selenium_java/src/test/resources/testng.xml" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/git/sel_test/src/test/resources/testng.xml" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.LC_test.thirdTest" />
       <item index="4" class="java.lang.String" itemvalue="TestNG.LC_test.firstTest" />
       <item index="5" class="java.lang.String" itemvalue="TestNG.LC_test.secondTest" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="TestNG.LC_test.firstTest" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.LC_test.secondTest" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.LC_test.thirdTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/git/SeleniumTest2/selenium_java/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -729,7 +656,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1448" height="856" extended-state="7" />
+    <frame x="-4" y="-4" width="1928" height="1156" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -738,7 +665,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3114428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2851064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -748,8 +675,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41560283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28955224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -784,30 +711,22 @@
   <component name="editorHistoryManager">
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/SuiteRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="17" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2618">
-          <folding />
-        </state>
+        <state line="69" column="17" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2618" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="23" selection-start="11328" selection-end="11328" vertical-scroll-proportion="0.0" vertical-offset="4114" max-vertical-offset="6171">
-          <folding />
-        </state>
+        <state line="242" column="23" selection-start="11328" selection-end="11328" vertical-scroll-proportion="0.0" vertical-offset="4114" max-vertical-offset="6171" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/remote/RemoteTestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java">
@@ -817,10 +736,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#before#0;class#LC_test#0" expanded="false" />
             <element signature="method#thirdTest#0;class#LC_test#0" expanded="false" />
-            <element signature="method#goToHomeTab#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressFinishEditing#0;class#LC_test#0" expanded="false" />
             <element signature="method#navigateToReach#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressEditMapButton#0;class#LC_test#0" expanded="false" />
             <element signature="method#goToTOCTab#0;class#LC_test#0" expanded="false" />
             <element signature="method#pressInsertExistingPage#0;class#LC_test#0" expanded="false" />
             <element signature="method#selectAndInsertExistingPage#0;class#LC_test#0" expanded="false" />
@@ -830,58 +746,42 @@
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="2533">
-          <folding />
-        </state>
+        <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="2533" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/internal/TestMethodWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/TestRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="17" selection-start="12381" selection-end="12381" vertical-scroll-proportion="0.0" vertical-offset="3570" max-vertical-offset="4386">
-          <folding />
-        </state>
+        <state line="210" column="17" selection-start="12381" selection-end="12381" vertical-scroll-proportion="0.0" vertical-offset="3570" max-vertical-offset="4386" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/SuiteRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="17" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2618">
-          <folding />
-        </state>
+        <state line="69" column="17" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2618" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="23" selection-start="11328" selection-end="11328" vertical-scroll-proportion="0.0" vertical-offset="4114" max-vertical-offset="6171">
-          <folding />
-        </state>
+        <state line="242" column="23" selection-start="11328" selection-end="11328" vertical-scroll-proportion="0.0" vertical-offset="4114" max-vertical-offset="6171" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/remote/RemoteTestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java">
@@ -891,10 +791,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#before#0;class#LC_test#0" expanded="false" />
             <element signature="method#thirdTest#0;class#LC_test#0" expanded="false" />
-            <element signature="method#goToHomeTab#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressFinishEditing#0;class#LC_test#0" expanded="false" />
             <element signature="method#navigateToReach#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressEditMapButton#0;class#LC_test#0" expanded="false" />
             <element signature="method#goToTOCTab#0;class#LC_test#0" expanded="false" />
             <element signature="method#pressInsertExistingPage#0;class#LC_test#0" expanded="false" />
             <element signature="method#selectAndInsertExistingPage#0;class#LC_test#0" expanded="false" />
@@ -909,10 +806,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#before#0;class#LC_test#0" expanded="false" />
             <element signature="method#thirdTest#0;class#LC_test#0" expanded="false" />
-            <element signature="method#goToHomeTab#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressFinishEditing#0;class#LC_test#0" expanded="false" />
             <element signature="method#navigateToReach#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressEditMapButton#0;class#LC_test#0" expanded="false" />
             <element signature="method#goToTOCTab#0;class#LC_test#0" expanded="false" />
             <element signature="method#pressInsertExistingPage#0;class#LC_test#0" expanded="false" />
             <element signature="method#selectAndInsertExistingPage#0;class#LC_test#0" expanded="false" />
@@ -927,23 +821,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdl/selenium/webdriver/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="0" selection-start="6218" selection-end="6218" vertical-scroll-proportion="0.0" vertical-offset="2848" max-vertical-offset="4301">
-          <folding />
-        </state>
+        <state line="182" column="0" selection-start="6218" selection-end="6218" vertical-scroll-proportion="0.0" vertical-offset="2848" max-vertical-offset="4301" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1581">
-          <folding />
-        </state>
+        <state line="57" column="0" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1581" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdl/selenium/webdriver/AuthenticatedHtmlUnitDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.31875" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.31875" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-server-standalone-2.42.2.jar!/org/openqa/selenium/remote/ErrorCodes.class">
@@ -1018,66 +906,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdl/selenium/util/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.7157895" vertical-offset="51" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.7157895" vertical-offset="51" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/grid2/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-server-standalone-2.42.2.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="456" selection-end="456" vertical-scroll-proportion="0.33275563" vertical-offset="46" max-vertical-offset="2108">
-          <folding />
-        </state>
+        <state line="15" column="35" selection-start="456" selection-end="456" vertical-scroll-proportion="0.33275563" vertical-offset="46" max-vertical-offset="2108" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdl/selenium/util/PropertyLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="348" selection-end="348" vertical-scroll-proportion="0.41247833" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="15" column="12" selection-start="348" selection-end="348" vertical-scroll-proportion="0.41247833" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="8" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0" vertical-offset="329" max-vertical-offset="1326">
-          <folding />
-        </state>
+        <state line="21" column="4" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-server-standalone-2.42.2.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="2465">
-          <folding />
-        </state>
+        <state line="23" column="41" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="2465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="318" selection-end="318" vertical-scroll-proportion="0.26516464" vertical-offset="0" max-vertical-offset="577">
-          <folding />
-        </state>
+        <state line="9" column="8" selection-start="318" selection-end="318" vertical-scroll-proportion="0.26516464" vertical-offset="0" max-vertical-offset="577" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdl/selenium/webdriver/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="41" selection-start="5345" selection-end="5345" vertical-scroll-proportion="0.6433566" vertical-offset="2070" max-vertical-offset="3264">
-          <folding>
-            <element signature="method#setVersionAndPlatform#0;class#WebDriverFactory#0" expanded="false" />
-          </folding>
+        <state line="162" column="41" selection-start="5345" selection-end="5345" vertical-scroll-proportion="0.6433566" vertical-offset="2070" max-vertical-offset="3264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,75 +960,72 @@
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="2516">
+        <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="0.0" vertical-offset="1144" max-vertical-offset="2516">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/internal/TestMethodWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="799">
+        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/TestRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="17" selection-start="12381" selection-end="12381" vertical-scroll-proportion="0.0" vertical-offset="3331" max-vertical-offset="4369">
+        <state line="210" column="17" selection-start="12381" selection-end="12381" vertical-scroll-proportion="0.0" vertical-offset="3405" max-vertical-offset="4369">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/SuiteRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="17" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.0" vertical-offset="934" max-vertical-offset="2601">
+        <state line="69" column="17" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.0" vertical-offset="1016" max-vertical-offset="2601">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="23" selection-start="11328" selection-end="11328" vertical-scroll-proportion="0.0" vertical-offset="3943" max-vertical-offset="6154">
+        <state line="242" column="23" selection-start="11328" selection-end="11328" vertical-scroll-proportion="0.0" vertical-offset="3957" max-vertical-offset="6154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/newworkspace/xopus/static/selenium-java-2.42.2/selenium-2.42.2/libs/testng-6.8.5.jar!/org/testng/remote/RemoteTestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.32078314" vertical-offset="229" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.3043478" vertical-offset="302" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/LC_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="21" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.7978437" vertical-offset="1183" max-vertical-offset="3655">
+        <state line="119" column="0" selection-start="4117" selection-end="4117" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="4216">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#before#0;class#LC_test#0" expanded="false" />
             <element signature="method#thirdTest#0;class#LC_test#0" expanded="false" />
-            <element signature="method#goToHomeTab#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressFinishEditing#0;class#LC_test#0" expanded="false" />
             <element signature="method#navigateToReach#0;class#LC_test#0" expanded="false" />
-            <element signature="method#pressEditMapButton#0;class#LC_test#0" expanded="false" />
             <element signature="method#goToTOCTab#0;class#LC_test#0" expanded="false" />
             <element signature="method#pressInsertExistingPage#0;class#LC_test#0" expanded="false" />
             <element signature="method#selectAndInsertExistingPage#0;class#LC_test#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sdl/selenium/pages/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="44" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.70991254" vertical-offset="227" max-vertical-offset="1343">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ public class LC_test extends TestBase {
     }
 
     @Test
-    public void firstTest() {
+    public void firstTest() throws InterruptedException {
         Assert.assertEquals(driver.getTitle().contains("SDL"), true);
 
         navigateToPub();
@@ -100,11 +100,21 @@ public class LC_test extends TestBase {
         driver.switchTo().defaultContent();
     }
 
-    public void pressEdit() {
+    public void pressEdit() throws InterruptedException {
         WebElement iFrame = driver.findElement(By.xpath("/html/body/div/div/div/div[3]/div/iframe"));
         driver.switchTo().frame(iFrame);
-        WebElement edit = driver.findElement(By.id("EditTopic"));
-        edit.click();
+        Thread.sleep(1000);
+        WebElement edit = driver.findElement(By.xpath(".//*[@id='EditTopic']/div"));
+
+        while (true) {
+            try {
+                edit.click();
+            } catch (StaleElementReferenceException e) {
+                break;
+            } catch (ElementNotVisibleException e) {
+                break;
+            }
+        }
         driver.switchTo().defaultContent();
     }
 
@@ -132,10 +142,11 @@ public class LC_test extends TestBase {
         driver.switchTo().frame(iFrame);
         WebElement iFrame2 = driver.findElement(By.id("lceditor"));
         driver.switchTo().frame(iFrame2);
-        WebElement insertTab = driver.findElement(By.id("InsertTab"));
+        //works in IE, does not in FF
+        //WebElement insertTab = driver.findElement(By.id("InsertTab"));
+        WebElement insertTab = driver.findElement(By.xpath(".//*[@id='InsertTab']/span"));
+
         System.out.println(insertTab.getText());
-        insertTab.click();
-        insertTab.click();
         insertTab.click();
     }
 
@@ -154,7 +165,8 @@ public class LC_test extends TestBase {
     }
 
     public void goToHomeTab() {
-        WebElement insertTab = driver.findElement(By.id("HomeTab"));
+        WebElement insertTab = driver.findElement(By.xpath(".//*[@id='HomeTab']/span"));
+
         insertTab.click();
     }
 
@@ -219,7 +231,6 @@ public class LC_test extends TestBase {
                 break;
             }
         }
-        System.out.println("aaa");
         driver.switchTo().defaultContent();
     }
 
