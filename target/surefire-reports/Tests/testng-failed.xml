@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests]" data-provider-thread-count="1">
+  <parameter name="path" value="/"/>
+  <test name="Test1(failed)">
+    <parameter name="path" value="/"/>
+    <classes>
+      <class name="com.sdl.selenium.pages.LC_test">
+        <methods>
+          <include name="init"/>
+          <include name="before"/>
+          <include name="tearDown"/>
+          <include name="firstTest"/>
+        </methods>
+      </class> <!-- com.sdl.selenium.pages.LC_test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->
